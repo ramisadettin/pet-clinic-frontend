@@ -1,0 +1,57 @@
+@use "base/reset";
+@use "base/normalize";
+@use "base/base";
+@use "utils/flex-util";
+@use "utils/buttons";
+@use "utils/input";
+@use "utils/lists";
+@use "utils/labels";
+@use "utils/aLinks";
+@use "utils/loaders";
+@use "utils/loadingpage/loadingpage";
+@use "layout/nav/nav";
+@use "layout/nav/burgerlist/burgerList";
+@use "layout/footer/footer";
+@use "layout/profile_side_nav/sidenav";
+@use 'layout/staffpanel_side_nav/staffpanel_side_nav';
+@use "utils/containers";
+@use 'utils/datepicker/datepicker';
+@use 'utils/modal/modal';
+@use 'utils/formErrorMsg/inputError';
+@use 'utils/up_photo_info/photoinfo';
+@use "pages/signup/signup";
+@use "pages/login/login";
+@use "pages/registerpet/registerpet";
+@use "pages/home/home";
+@use 'pages/home/slider/slider';
+@use 'pages/home/cards/cards';
+@use 'pages/appointment/appointment';
+@use 'pages/appointment/makeAppointment/makeAppointmentSlider';
+@use 'pages/appointment/appointmentSlider/viewAppointmentSlider';
+@use 'pages/appointment/appointmentSlider/appointmentCard/appointmentCard';
+@use 'pages/adoptionAds/AdoptionAds';
+@use 'pages/adoption/adoption';
+@use 'pages/adoptionAd/adoptionAd';
+@use 'pages/profile/account/account';
+@use 'pages/profile/myadoptionposts/myadoptionposts';
+@use 'pages/profile/myadoptionrequests/myadoptionrequests';
+@use 'pages/profile/personalinfo/personalinfo';
+@use 'pages/profile/petinfo/petinfo';
+
+@use 'pages/postAd/postad';
+@use 'pages/postpreview/postpreview';
+@use 'pages/stafflist/stafflist';
+
+
+@use 'pages/staffPanel/appointmentmanagement/appointmentmanagement';
+@use 'pages/staffPanel/adoptionmanagement/adoptionmanagement';
+@use 'pages/staffPanel/registration/registration.scss';
+@use 'pages/staffPanel/pettreatmenthistory/pettreatmenthistory';
+@use 'pages/staffPanel/pettraininghistory/pettraininghistory';
+@use 'pages/staffPanel/manageusers/manageusers';
+@use 'pages/staffPanel/managepets/managepets';
+@use 'pages/staffPanel/putforadoption/putforadoption';
+@use 'pages/staffPanel/activeappointments//activeappointments';
+
+
+@use 'pages/about/about';

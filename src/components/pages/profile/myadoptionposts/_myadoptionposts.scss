@@ -1,0 +1,59 @@
+@use '../../../abstracts/' as *;
+
+
+.margin-bottom{
+    margin-bottom: .5rem;
+}
+
+
+// for the modal
+.modal-background{
+    background-color: var(--clr-shadow-glassy-shadow);
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+    // width: 310px;
+    // height: 120px;
+    width: 90%;
+    max-width:400px;
+    min-width: 250px;
+    padding: 1rem;
+    box-shadow: 5px 10px 10px rgb(131, 131, 131);
+
+
+}
+
+.modal-container{
+
+    width: 100%;
+
+    .edit-modal-buttons-container{
+        width: 100%;
+    }
+  
+    .btn-rec-purple{
+        padding: .5rem;
+       width: 35%;
+      
+    }
+
+    .x-close{
+        position: absolute;
+        top:5px;
+        left: 5px;
+        text-align: left;
+        font-size: .5rem;
+        @include break-point("medium", "up") {
+            top:5px;
+            left: 10px;
+            font-size: 1rem;
+        }
+        
+    }
+}
+
+.modal-title{
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+

@@ -1,0 +1,11 @@
+@use "../../abstracts" as *;
+
+.make-appointment-wrapper {
+  background-image: linear-gradient(120deg, var(--clr-shadow-dark-shadow) 50%, var(--clr-primary-mainBlue));
+  height: 40rem;
+  @include break-point("medium", "up") {
+    height: 40rem;
+  }
+  
+}
+

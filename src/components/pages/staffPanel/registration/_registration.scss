@@ -1,0 +1,8 @@
+@use '../../../abstracts/' as *;
+
+
+.btn-rec-purple {
+  &.rec-register {
+    padding: .5rem;
+  }
+}

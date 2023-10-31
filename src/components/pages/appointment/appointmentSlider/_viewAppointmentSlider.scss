@@ -1,0 +1,69 @@
+@use "../../../abstracts/" as *;
+
+.view-appointment-animator {
+    @include break-point("medium", "up") {
+        justify-content: center;
+        gap: 16px;
+        padding: 0 .75rem;
+    }
+}
+.view-appointment-wrapper {
+    padding-bottom: 2rem;
+    @include break-point("medium", "up") {
+        padding-bottom: 3rem;
+    }
+
+    &.ref {
+      position: relative;
+      width: 95%;
+      background-color: rgb(236, 236, 236);
+      margin: auto;
+      -webkit-box-shadow: -8px 7px 0px 0px rgba(78, 78, 78, 0.748);
+      box-shadow: -8px 7px 0px 0px rgba(78, 78, 78, 0.748);
+    
+
+      h2 {
+        text-align: center;
+      }
+    }
+
+    .pag-app {
+        position: absolute;
+        bottom: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include break-point("medium", "up") {
+          bottom: .5rem;
+        }
+
+        i {
+            color: var(--clr-primary-mainBlue);
+
+            &:hover {
+                color: var(--clr-primary-mainPurple);
+                cursor: pointer;
+            }
+        }
+
+        span {
+            color: var(--clr-shadow-dark-shadow);
+            font-weight: 600;
+            transition: 0.5s ease color;
+
+            &:hover {
+                color: var(--clr-primary-mainPurple);
+                cursor: pointer;
+            }
+        }
+
+        @include break-point("medium", "up") {
+            font-size: 1.2rem;
+        }
+
+        .active {
+            color: var(--clr-primary-mainPurple);
+            transform: scale(1.2);
+        }
+    }
+}
